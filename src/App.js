@@ -1,14 +1,14 @@
 import React from 'react';
-import './App.css';
+import Nav from './components/Nav';
 import About from './components/About';
-import Nav from './components/Nav'
 
 function App() {
+
   return (
-   <div>
+    <div>
       <Nav />
       <main>
-        <About />
+          <About />        
       </main>
     </div>
   );
